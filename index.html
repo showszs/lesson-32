@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson-32</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Search Movies</h1>
+
+    <div class="search">
+      <div class="search__container">
+        <label for="search" class="search__label-input">Search</label>
+        <input type="search" class="search__input" id="search" placeholder="Type movie name...">
+      </div>
+
+      <div class="search__container search__container--checkbox">
+        <input type="checkbox" class="search__checkbox" id="check">
+        <label for="checkbox" class="search__label-checkbox">Add movie to list</label>
+      </div>
+    </div>
+
+    <div class="movies" id="movies-list"></div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
